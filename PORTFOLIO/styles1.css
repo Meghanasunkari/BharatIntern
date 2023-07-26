@@ -1,0 +1,130 @@
+body, html {
+    border: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:rgb(255,228,225);
+}
+.container1{
+    background-image: url(../PORTFOLIO/images/portimage.jpg);
+    background-size: cover;
+    height:100%;
+    width:100%;
+    vertical-align: bottom;
+    background-color:grey;
+}
+.container1 .img2{
+    align-items: left;
+    margin-left:435px;
+    width:270px;
+    border-radius:50% ;
+}
+ .container1 h1{
+    padding-top:100px;
+    text-align: center;
+    margin-right:400px;
+    font-family: cursive;
+    color:darkblue;
+    font-size: 40px;
+}
+.container1 h2{
+    text-align: center;
+    margin-right:420px;
+    font-family:"Segoe Script";
+    color:darkblue;
+    font-size:30px;
+    font-weight:900;
+    padding-top:10px;
+}
+.container1 h3{
+    text-align: center;
+    margin-right:390px;
+    font-family:"Segoe Script";
+    color:darkblue;
+}
+.skills{
+    width:130px;
+    float:right;
+    border-radius:150%;
+    margin-right: 750px;
+    margin-left: -800px;
+}
+.container2 h1{
+    text-align: center;
+    margin-right:400px;
+    font-family: cursive;
+    color:darkblue;
+    font-size: 40px;
+    text-decoration: underline;
+
+}
+.container2 p{
+    text-align: center;
+    font-family:cursive;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 250px;
+    line-height: 2;
+}
+.container2 ul li{
+    text-align: center;
+    list-style-type:square;
+    text-decoration:underline;
+    margin-right:200px;
+    margin-left:-250px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+}
+.container2 h3{
+    text-align: center;
+    margin-right: 400px;
+    font-family:cursive;
+    font-weight: lighter;
+}
+.container2 h2{
+    text-align: center;
+    margin-right: 400px;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: lighter;
+} 
+.project{
+    width:130px;
+    float:right;
+    border-radius:150%;
+    margin-right: 740px;
+    margin-left: -800px;
+    margin-top: 35px;
+}
+.button{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-right: 400px;
+    font-size: 35px;
+    color: darkblue;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: rgb(243, 130, 130);
+    padding-top: 40px;
+    padding-bottom: 25px;
+    padding-left:10px;
+}
+.container4 ul{
+    display:flex;
+    list-style-type: none;
+    padding-left: 430px;
+    
+}
+.container4 li{
+    margin-right: 50px;
+    
+}
+.copyright p{
+    margin-left: 470px;
+}
